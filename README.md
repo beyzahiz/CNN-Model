@@ -38,15 +38,15 @@ Modellerin eğitim süreçleri ve final karşılaştırmaları:
 Modellerin epoch bazında öğrenme performansları. Mor çizginin (CNN V2) yüksek başarısına ve yeşil çizginin (CNN V1) hızlı adaptasyonuna dikkat edin.
 
 **Doğruluk (Accuracy) Grafiği:**
-![Validation Accuracy](assets/valudation-accuracy.png)
+<img src="assets/valudation-accuracy.png" width="80%" alt="Validation Accuracy Graph">
 
-**Hata (Loss) Grafiği:**
-![Validation Loss](assets/valudation-loss.png)
+<br> **Hata (Loss) Grafiği:**
+<img src="assets/valudation-loss.png" width="80%" alt="Validation Loss Graph">
 
 ### 2. Final Doğruluk Karşılaştırması
 Test seti üzerindeki nihai sonuçlar. CNN V2 modelinin en yüksek başarıma sahip olduğu, hafif modelin (V1) ise çok yakın bir performans sergilediği görülmektedir.
 
-![Final Karşılaştırma](assets/karsilastirma.png)
+<img src="assets/karsilastirma.png" width="80%" alt="Final Comparison Bar Chart">
     ```
 
 ## 📝 Sonuç ve Çıkarımlar
