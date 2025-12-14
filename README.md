@@ -35,19 +35,18 @@ Modellerin test seti üzerindeki başarı oranları ve parametre sayıları aşa
 Modellerin eğitim süreçleri ve final karşılaştırmaları:
 
 ### 1. Eğitim Süreci (Validation Accuracy & Loss)
-Modellerin epoch bazında öğrenme performansları. Mor çizginin (CNN V2) yüksek başarısına ve yeşil çizginin (CNN V1) hızlı adaptasyonuna dikkat edin.
+Modellerin epoch bazında öğrenme performansları.
 
-**Doğruluk (Accuracy) Grafiği:**
-<img src="assets/valudation-accuracy.png" width="80%" alt="Validation Accuracy Graph">
-
-<br> **Hata (Loss) Grafiği:**
-<img src="assets/valudation-loss.png" width="80%" alt="Validation Loss Graph">
+<p float="left">
+  <img src="assets/valudation-accuracy.png" width="45%" />
+  <img src="assets/valudation-loss.png" width="45%" /> 
+</p>
 
 ### 2. Final Doğruluk Karşılaştırması
-Test seti üzerindeki nihai sonuçlar. CNN V2 modelinin en yüksek başarıma sahip olduğu, hafif modelin (V1) ise çok yakın bir performans sergilediği görülmektedir.
+Test seti üzerindeki nihai sonuçlar.
 
-<img src="assets/karsilastirma.png" width="80%" alt="Final Comparison Bar Chart">
-    ```
+<img src="assets/karsilastirma.png" width="85%">
+    
 
 ## 📝 Sonuç ve Çıkarımlar
 * **Verimlilik:** **CNN V1**, sadece 12k parametre ile referans modellere kafa tutarak, kaynak kısıtı olan sistemler (IoT, Mobil) için ideal olduğunu kanıtladı.
