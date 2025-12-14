@@ -34,16 +34,19 @@ Modellerin test seti üzerindeki başarı oranları ve parametre sayıları aşa
 
 Modellerin eğitim süreçleri ve final karşılaştırmaları:
 
-### 1. Eğitim Süreci (Loss & Accuracy)
-Modellerin epoch bazında öğrenme eğrileri. Mor çizginin (CNN V2) stabilitesine ve yeşil çizginin (CNN V1) hızlı adaptasyonuna dikkat edin.
+### 1. Eğitim Süreci (Validation Accuracy & Loss)
+Modellerin epoch bazında öğrenme performansları. Mor çizginin (CNN V2) yüksek başarısına ve yeşil çizginin (CNN V1) hızlı adaptasyonuna dikkat edin.
 
-![Training Graphs](assets/model_comparison.png)
-*(Grafiklerinizi `assets` klasörüne yükleyip buradaki dosya adını güncelleyin)*
+**Doğruluk (Accuracy) Grafiği:**
+![Validation Accuracy](assets/valudation-accuracy.png)
+
+**Hata (Loss) Grafiği:**
+![Validation Loss](assets/valudation-loss.png)
 
 ### 2. Final Doğruluk Karşılaştırması
-Test seti üzerindeki nihai sonuçlar.
+Test seti üzerindeki nihai sonuçlar. CNN V2 modelinin en yüksek başarıma sahip olduğu, hafif modelin (V1) ise çok yakın bir performans sergilediği görülmektedir.
 
-![Accuracy Bar Chart](assets/accuracy_barchart.png)
+![Final Karşılaştırma](assets/karsilastirma.png)
     ```
 
 ## 📝 Sonuç ve Çıkarımlar
